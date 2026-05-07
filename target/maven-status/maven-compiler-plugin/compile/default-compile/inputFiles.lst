@@ -1,0 +1,16 @@
+D:\Burpsuite pro\burp-claude\src\main\java\com\burpai\models\AnalysisRequest.java
+D:\Burpsuite pro\burp-claude\src\main\java\com\burpai\ui\SettingsPanel.java
+D:\Burpsuite pro\burp-claude\src\main\java\com\burpai\ai\AIProvider.java
+D:\Burpsuite pro\burp-claude\src\main\java\com\burpai\ai\OpenAIProvider.java
+D:\Burpsuite pro\burp-claude\src\main\java\com\burpai\utils\ResponseParser.java
+D:\Burpsuite pro\burp-claude\src\main\java\com\burpai\ai\ClaudeProvider.java
+D:\Burpsuite pro\burp-claude\src\main\java\com\burpai\api\APIResponse.java
+D:\Burpsuite pro\burp-claude\src\main\java\com\burpai\api\HttpClient.java
+D:\Burpsuite pro\burp-claude\src\main\java\com\burpai\models\ExtensionSettings.java
+D:\Burpsuite pro\burp-claude\src\main\java\com\burpai\models\AnalysisResult.java
+D:\Burpsuite pro\burp-claude\src\main\java\com\burpai\BurpAIPro.java
+D:\Burpsuite pro\burp-claude\src\main\java\com\burpai\ui\BurpAIPanel.java
+D:\Burpsuite pro\burp-claude\src\main\java\com\burpai\ui\ContextMenuHandler.java
+D:\Burpsuite pro\burp-claude\src\main\java\com\burpai\utils\DataMasker.java
+D:\Burpsuite pro\burp-claude\src\main\java\com\burpai\ai\PromptBuilder.java
+D:\Burpsuite pro\burp-claude\src\main\java\com\burpai\workers\AnalysisWorker.java
