@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.burpai</groupId>
+  <artifactId>burp-ai-pro</artifactId>
+  <name>BurpAI Pro</name>
+  <version>1.0.0</version>
+  <description>AI-powered Burp Suite Extension for Security Analysis</description>
+  <build>
+    <plugins>
+      <plugin>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>3.11.0</version>
+        <configuration>
+          <source>11</source>
+          <target>11</target>
+        </configuration>
+      </plugin>
+      <plugin>
+        <artifactId>maven-shade-plugin</artifactId>
+        <version>3.5.0</version>
+        <executions>
+          <execution>
+            <phase>package</phase>
+            <goals>
+              <goal>shade</goal>
+            </goals>
+            <configuration>
+              <transformers>
+                <transformer>
+                  <mainClass>com.burpai.BurpAIPro</mainClass>
+                </transformer>
+              </transformers>
+              <finalName>BurpAIPro</finalName>
+            </configuration>
+          </execution>
+        </executions>
+      </plugin>
+      <plugin>
+        <artifactId>maven-jar-plugin</artifactId>
+        <version>3.3.0</version>
+        <configuration>
+          <archive>
+            <manifest>
+              <mainClass>com.burpai.BurpAIPro</mainClass>
+            </manifest>
+          </archive>
+          <finalName>BurpAIPro</finalName>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+  <dependencies>
+    <dependency>
+      <groupId>burp</groupId>
+      <artifactId>burpsuite</artifactId>
+      <version>2.0</version>
+      <scope>system</scope>
+      <systemPath>${project.basedir}/lib/burpsuite_community_v2_0_5.jar</systemPath>
+    </dependency>
+  </dependencies>
+  <properties>
+    <maven.compiler.target>11</maven.compiler.target>
+    <maven.compiler.source>11</maven.compiler.source>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+</project>
