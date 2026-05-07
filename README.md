@@ -36,7 +36,7 @@ A powerful Burp Suite extension that integrates OpenAI GPT and Anthropic Claude 
 ### Step 1: Download and Extract Burp Suite API JAR
 
 Download `burpsuite_community_v2_0_5.jar` from the Burp Suite website and place it in the `lib/` directory:
-
+File is not included here due to copyright issues you can download from portswigger.net works for both community and pro verions 
 ```bash
 mkdir -p lib
 # Download from: https://portswigger.net/burp/communitydownload
